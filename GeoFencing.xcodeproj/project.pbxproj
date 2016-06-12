@@ -13,9 +13,9 @@
 		1D63BA561BCE969700121583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D63BA551BCE969700121583 /* Assets.xcassets */; };
 		1D63BA591BCE969700121583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D63BA571BCE969700121583 /* LaunchScreen.storyboard */; };
 		1D63BA641BCE969700121583 /* GeoLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA631BCE969700121583 /* GeoLocationTests.m */; };
-		1D63BA7D1BCE97C000121583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA781BCE97C000121583 /* AppDelegate.m */; settings = {ASSET_TAGS = (); }; };
-		1D63BA7E1BCE97C000121583 /* UserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA7A1BCE97C000121583 /* UserView.m */; settings = {ASSET_TAGS = (); }; };
-		1D63BA7F1BCE97C000121583 /* UserViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA7C1BCE97C000121583 /* UserViewControler.m */; settings = {ASSET_TAGS = (); }; };
+		1D63BA7D1BCE97C000121583 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA781BCE97C000121583 /* AppDelegate.m */; };
+		1D63BA7E1BCE97C000121583 /* UserView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA7A1BCE97C000121583 /* UserView.m */; };
+		1D63BA7F1BCE97C000121583 /* UserViewControler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D63BA7C1BCE97C000121583 /* UserViewControler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D63BA461BCE969700121583 /* GeoLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D63BA461BCE969700121583 /* GeoFencing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoFencing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D63BA4A1BCE969700121583 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1D63BA4C1BCE969700121583 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D63BA4F1BCE969700121583 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		1D63BA551BCE969700121583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D63BA581BCE969700121583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D63BA5A1BCE969700121583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D63BA5F1BCE969700121583 /* GeoLocationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoLocationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D63BA5F1BCE969700121583 /* GeoFencing.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoFencing.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D63BA631BCE969700121583 /* GeoLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeoLocationTests.m; sourceTree = "<group>"; };
 		1D63BA651BCE969700121583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D63BA781BCE97C000121583 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -69,8 +69,8 @@
 		1D63BA3D1BCE969700121583 = {
 			isa = PBXGroup;
 			children = (
-				1D63BA481BCE969700121583 /* GeoLocation */,
-				1D63BA621BCE969700121583 /* GeoLocationTests */,
+				1D63BA481BCE969700121583 /* GeoFencing */,
+				1D63BA621BCE969700121583 /* GeoFencingTests */,
 				1D63BA471BCE969700121583 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -78,13 +78,13 @@
 		1D63BA471BCE969700121583 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D63BA461BCE969700121583 /* GeoLocation.app */,
-				1D63BA5F1BCE969700121583 /* GeoLocationTests.xctest */,
+				1D63BA461BCE969700121583 /* GeoFencing.app */,
+				1D63BA5F1BCE969700121583 /* GeoFencing.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D63BA481BCE969700121583 /* GeoLocation */ = {
+		1D63BA481BCE969700121583 /* GeoFencing */ = {
 			isa = PBXGroup;
 			children = (
 				1D63BA4C1BCE969700121583 /* AppDelegate.h */,
@@ -101,7 +101,7 @@
 				1D63BA5A1BCE969700121583 /* Info.plist */,
 				1D63BA491BCE969700121583 /* Supporting Files */,
 			);
-			path = GeoLocation;
+			path = GeoFencing;
 			sourceTree = "<group>";
 		};
 		1D63BA491BCE969700121583 /* Supporting Files */ = {
@@ -112,21 +112,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1D63BA621BCE969700121583 /* GeoLocationTests */ = {
+		1D63BA621BCE969700121583 /* GeoFencingTests */ = {
 			isa = PBXGroup;
 			children = (
 				1D63BA631BCE969700121583 /* GeoLocationTests.m */,
 				1D63BA651BCE969700121583 /* Info.plist */,
 			);
-			path = GeoLocationTests;
+			path = GeoFencingTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D63BA451BCE969700121583 /* GeoLocation */ = {
+		1D63BA451BCE969700121583 /* GeoFencing */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63BA681BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoLocation" */;
+			buildConfigurationList = 1D63BA681BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoFencing" */;
 			buildPhases = (
 				1D63BA421BCE969700121583 /* Sources */,
 				1D63BA431BCE969700121583 /* Frameworks */,
@@ -136,14 +136,14 @@
 			);
 			dependencies = (
 			);
-			name = GeoLocation;
+			name = GeoFencing;
 			productName = GeoLocation;
-			productReference = 1D63BA461BCE969700121583 /* GeoLocation.app */;
+			productReference = 1D63BA461BCE969700121583 /* GeoFencing.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D63BA5E1BCE969700121583 /* GeoLocationTests */ = {
+		1D63BA5E1BCE969700121583 /* GeoFencingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D63BA6B1BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoLocationTests" */;
+			buildConfigurationList = 1D63BA6B1BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoFencingTests" */;
 			buildPhases = (
 				1D63BA5B1BCE969700121583 /* Sources */,
 				1D63BA5C1BCE969700121583 /* Frameworks */,
@@ -154,9 +154,9 @@
 			dependencies = (
 				1D63BA611BCE969700121583 /* PBXTargetDependency */,
 			);
-			name = GeoLocationTests;
+			name = GeoFencingTests;
 			productName = GeoLocationTests;
-			productReference = 1D63BA5F1BCE969700121583 /* GeoLocationTests.xctest */;
+			productReference = 1D63BA5F1BCE969700121583 /* GeoFencing.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -177,7 +177,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D63BA411BCE969700121583 /* Build configuration list for PBXProject "GeoLocation" */;
+			buildConfigurationList = 1D63BA411BCE969700121583 /* Build configuration list for PBXProject "GeoFencing" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -190,8 +190,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D63BA451BCE969700121583 /* GeoLocation */,
-				1D63BA5E1BCE969700121583 /* GeoLocationTests */,
+				1D63BA451BCE969700121583 /* GeoFencing */,
+				1D63BA5E1BCE969700121583 /* GeoFencingTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +242,7 @@
 /* Begin PBXTargetDependency section */
 		1D63BA611BCE969700121583 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D63BA451BCE969700121583 /* GeoLocation */;
+			target = 1D63BA451BCE969700121583 /* GeoFencing */;
 			targetProxy = 1D63BA601BCE969700121583 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -351,10 +351,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GeoLocation/Info.plist;
+				INFOPLIST_FILE = GeoFencing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fazlerab.GeoLocation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fazlerab.GeoFencing;
+				PRODUCT_NAME = GeoFencing;
 			};
 			name = Debug;
 		};
@@ -362,10 +362,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = GeoLocation/Info.plist;
+				INFOPLIST_FILE = GeoFencing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fazlerab.GeoLocation;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.fazlerab.GeoFencing;
+				PRODUCT_NAME = GeoFencing;
 			};
 			name = Release;
 		};
@@ -376,8 +376,8 @@
 				INFOPLIST_FILE = GeoLocationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fazlerab.GeoLocationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoLocation.app/GeoLocation";
+				PRODUCT_NAME = GeoFencing;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoFencing.app/GeoFencing";
 			};
 			name = Debug;
 		};
@@ -388,15 +388,15 @@
 				INFOPLIST_FILE = GeoLocationTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fazlerab.GeoLocationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoLocation.app/GeoLocation";
+				PRODUCT_NAME = GeoFencing;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoFencing.app/GeoFencing";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D63BA411BCE969700121583 /* Build configuration list for PBXProject "GeoLocation" */ = {
+		1D63BA411BCE969700121583 /* Build configuration list for PBXProject "GeoFencing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D63BA661BCE969700121583 /* Debug */,
@@ -405,7 +405,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D63BA681BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoLocation" */ = {
+		1D63BA681BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoFencing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D63BA691BCE969700121583 /* Debug */,
@@ -414,7 +414,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D63BA6B1BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoLocationTests" */ = {
+		1D63BA6B1BCE969700121583 /* Build configuration list for PBXNativeTarget "GeoFencingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D63BA6C1BCE969700121583 /* Debug */,
